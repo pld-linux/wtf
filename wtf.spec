@@ -1,4 +1,5 @@
 Summary:	translates acronyms for you
+Summary(pl):	T³umaczy znaczenie akronimów
 Name:		wtf
 Version:	20051104
 Release:	1
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Translates acronyms for you.
+
+%description -l pl
+T³umaczy znaczenie akronimów.
 
 %prep
 %setup -q
