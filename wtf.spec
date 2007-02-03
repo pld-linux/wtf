@@ -8,6 +8,7 @@ Group:		Applications/Games
 Source0:	http://www.mu.org/~mux/wtf/%{name}-%{version}.tar.gz
 # Source0-md5:	93ca90bef86d2f58da14ed0db87cbf78
 Patch0:		%{name}-updates.patch
+Patch1:		%{name}-man.patch
 Requires:	grep
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,6 +21,7 @@ T³umaczy znaczenie akronimów.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT

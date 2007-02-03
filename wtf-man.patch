@@ -1,0 +1,10 @@
+--- wtf-20051104/wtf.6~	2007-02-03 12:36:59.000000000 +0100
++++ wtf-20051104/wtf.6	2007-02-03 12:37:14.000000000 +0100
+@@ -58,7 +58,6 @@
+ computer-related acronym database.
+ .El
+ .Sh SEE ALSO
+-.Xr pkg_info 1 ,
+ .Xr whatis 1
+ .Sh HISTORY
+ .Nm
