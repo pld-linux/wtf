@@ -1,5 +1,5 @@
 Summary:	Translates acronyms for you
-Summary(pl.UTF-8):   Tłumaczenie znaczenie akronimów
+Summary(pl.UTF-8):	Tłumaczenie znaczenie akronimów
 Name:		wtf
 Version:	20051104
 Release:	1
