@@ -1,5 +1,5 @@
 Summary:	Translates acronyms for you
-Summary(pl):	T≥umaczenie znaczenie akronimÛw
+Summary(pl.UTF-8):   T≈Çumaczenie znaczenie akronim√≥w
 Name:		wtf
 Version:	20051104
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Translates acronyms for you.
 
-%description -l pl
-Program do t≥umaczenia znaczenia akronimÛw.
+%description -l pl.UTF-8
+Program do t≈Çumaczenia znaczenia akronim√≥w.
 
 %prep
 %setup -q
