@@ -1,14 +1,15 @@
 Summary:	Translates acronyms for you
 Summary(pl.UTF-8):	Tłumaczenie znaczenia akronimów
 Name:		wtf
-Version:	20051104
+Version:	20071004
 Release:	1
-License:	Public domain
+License:	Public Domain
 Group:		Applications/Games
 Source0:	http://www.mu.org/~mux/wtf/%{name}-%{version}.tar.gz
-# Source0-md5:	93ca90bef86d2f58da14ed0db87cbf78
+# Source0-md5:	25944e275cc858e30cacea341509d19b
 Patch0:		%{name}-updates.patch
 Patch1:		%{name}-man.patch
+Conflicts:	bsd-games
 Requires:	grep
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,6 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man*/*
+%attr(755,root,root) %{_bindir}/wtf
+%{_mandir}/man6/wtf.6*
 %{_datadir}/misc/acronyms*
